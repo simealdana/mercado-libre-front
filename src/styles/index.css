@@ -1,0 +1,48 @@
+.root{
+  padding: 25px;
+}
+body{
+  background: #EEEEEE;
+  margin: 0px;
+}
+
+.nav-bar img {
+  padding-right: 20px;
+}
+.nav-bar{
+  background-color:#FFE600 ;
+  padding: 15px;
+}
+
+.search-item{
+  width: 100%;
+}
+
+.search-item-input{
+  width: 99%;
+}
+
+.search-button{
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content :center;
+  background: #EEEEEE;
+  border: none;
+  
+}
+  
+.search-button img{
+  padding:10px
+}
+
+@media (min-width: 768px) {
+  .root{
+    padding: 50px 100px 50px 100px;
+  }
+  .nav-bar {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
